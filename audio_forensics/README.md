@@ -14,7 +14,7 @@ source venv/bin/activate
 pip install numpy matplotlib librosa soundfile pandas
 ```
 
-![venv](/images/venv.png)
+![venv](./images/venv.png)
 
 
 ##  2. Audio Pre-Processing (FFmpeg)
@@ -37,7 +37,7 @@ Convert real WhatsApp voice note:
 ffmpeg -i real.opus -ar 16000 -ac 1 real.wav
 ```
 
-![convert](images/convert.png)
+![convert](./images/convert.png)
 
 ##  3. Run the Analysis Script
 
@@ -46,7 +46,7 @@ Execute the Python tool with:
 python3 VFD.py real.wav fake.wav
 ```
 
-![run](images/vfd.png)
+![run](./images/vfd.png)
 
 
 ## 4. Output Files
@@ -59,11 +59,11 @@ The script generates multiple analysis results inside the results/ folder, inclu
 - STFT
 - CSV feature report
 
-![waveform](results/wave.png)
-![spec](results/stft.png)
-![mel-spec](results/mel-spec.png)
-![mfcc](results/mfcc.png)
-![csv](results/csv.png)
+![waveform](./results/wave.png)
+![spec](./results/stft.png)
+![mel-spec](./results/mel-spec.png)
+![mfcc](./results/mfcc.png)
+![csv](./results/csv.png)
 
 
 ## Summary
