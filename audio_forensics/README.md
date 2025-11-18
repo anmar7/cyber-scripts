@@ -37,7 +37,7 @@ Convert real WhatsApp voice note:
 ffmpeg -i real.opus -ar 16000 -ac 1 real.wav
 ```
 
-![convert](./images/convert.png)
+![convert](./images/convers.png)
 
 ##  3. Run the Analysis Script
 
